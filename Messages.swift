@@ -13,10 +13,11 @@ class Messages: UIViewController {
 
     @IBAction func backButton(sender: AnyObject) {
         
-        var controller: MainScreen = MainScreen(nibName:"MainScreen", bundle:NSBundle.mainBundle())
-        
-        self.presentViewController(controller, animated: true, completion: nil)
+//        var controller: MainScreen = MainScreen(nibName:"MainScreen", bundle:NSBundle.mainBundle())
+//        
+//        self.presentViewController(controller, animated: true, completion: nil)
 
+         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     

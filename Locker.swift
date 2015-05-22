@@ -15,14 +15,6 @@ class Locker: UIViewController {
     var valueString = ""
     @IBOutlet weak var lockLabel: UILabel!
     @IBOutlet weak var passImageView: UIImageView!
-
-    @IBAction func zeroButton(sender: AnyObject) {
-        
-        var controller: MainScreen = MainScreen(nibName:"MainScreen", bundle:NSBundle.mainBundle())
-        
-        self.presentViewController(controller, animated: true, completion: nil)
-    }
-
     
     
     override func viewDidLoad() {
@@ -57,7 +49,8 @@ class Locker: UIViewController {
             passImageView.image = UIImage(named: "4")
             //lockLabel.text = "arrasou"
             //performSegueWithIdentifier("correct", sender: nil)
-            var controller: Messages = Messages(nibName:"Messages", bundle:NSBundle.mainBundle())
+            
+            var controller: MainScreen = MainScreen(nibName:"MainScreen", bundle:NSBundle.mainBundle())
             self.presentViewController(controller, animated: true, completion: nil)
             
         } else if count(valueString) == 4 {

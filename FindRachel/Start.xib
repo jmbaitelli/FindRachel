@@ -41,6 +41,7 @@
                 </constraint>
                 <constraint firstAttribute="centerX" secondItem="bOT-2P-EB7" secondAttribute="centerX" id="e9e-rN-RZC"/>
             </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <variation key="default">
                 <mask key="subviews">
                     <exclude reference="bOT-2P-EB7"/>

@@ -10,29 +10,29 @@
 	<string>FindRachel</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1D31A1B02EB2753D4AB6312D2168160B5A2950D8</key>
+		<key>51135FA33650107B41E6E0DC99911E3DCC52CB9D</key>
 		<string>https://github.com/jmbaitelli/FindRachel.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FindRachel/FindRachel.xcodeproj</string>
+	<string>FindRachel.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1D31A1B02EB2753D4AB6312D2168160B5A2950D8</key>
-		<string>../../..</string>
+		<key>51135FA33650107B41E6E0DC99911E3DCC52CB9D</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/jmbaitelli/FindRachel.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1D31A1B02EB2753D4AB6312D2168160B5A2950D8</string>
+	<string>51135FA33650107B41E6E0DC99911E3DCC52CB9D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1D31A1B02EB2753D4AB6312D2168160B5A2950D8</string>
+			<string>51135FA33650107B41E6E0DC99911E3DCC52CB9D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>FindRachel</string>
 		</dict>
