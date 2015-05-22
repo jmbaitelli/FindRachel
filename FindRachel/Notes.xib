@@ -15,14 +15,14 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="6oP-6a-eQJ">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <rect key="frame" x="0.0" y="60" width="600" height="540"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <variation key="widthClass=compact" fixedFrame="YES">
                         <rect key="frame" x="0.0" y="49" width="400" height="551"/>
                     </variation>
                 </tableView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qw-0U-tcA">
-                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qw-0U-tcA">
+                    <rect key="frame" x="15" y="22" width="61" height="30"/>
                     <state key="normal" title="Button">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -35,19 +35,13 @@
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <variation key="default">
-                <mask key="subviews">
-                    <exclude reference="6oP-6a-eQJ"/>
-                    <exclude reference="3qw-0U-tcA"/>
-                </mask>
-            </variation>
-            <variation key="widthClass=compact">
-                <mask key="subviews">
-                    <include reference="6oP-6a-eQJ"/>
-                    <include reference="3qw-0U-tcA"/>
-                </mask>
-            </variation>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6oP-6a-eQJ" secondAttribute="trailing" id="3CP-co-hDp"/>
+                <constraint firstItem="6oP-6a-eQJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="ZDM-ao-Ulw"/>
+                <constraint firstAttribute="bottom" secondItem="6oP-6a-eQJ" secondAttribute="bottom" id="wqg-9v-SGm"/>
+                <constraint firstItem="6oP-6a-eQJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zZq-YT-c1n"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="350" y="242"/>
         </view>
     </objects>

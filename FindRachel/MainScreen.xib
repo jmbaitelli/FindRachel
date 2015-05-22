@@ -16,8 +16,8 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="0UG-sp-ZDB">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                    <color key="backgroundColor" red="0.16174771776509789" green="0.11669030392345739" blue="0.29904513888888884" alpha="1" colorSpace="calibratedRGB"/>
+                    <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                    <color key="backgroundColor" red="0.15195193963418618" green="0.10962329646853368" blue="0.28093434343434343" alpha="1" colorSpace="calibratedRGB"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="EsU-Ww-47i">
                         <size key="itemSize" width="100" height="100"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -34,17 +34,13 @@
                 </collectionView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <variation key="default">
-                <mask key="subviews">
-                    <exclude reference="0UG-sp-ZDB"/>
-                </mask>
-            </variation>
-            <variation key="widthClass=compact">
-                <mask key="subviews">
-                    <include reference="0UG-sp-ZDB"/>
-                </mask>
-            </variation>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0UG-sp-ZDB" secondAttribute="trailing" id="8Q5-lj-MQ5"/>
+                <constraint firstItem="0UG-sp-ZDB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="9Dw-IY-OaV"/>
+                <constraint firstAttribute="bottom" secondItem="0UG-sp-ZDB" secondAttribute="bottom" id="WLS-m5-U0Y"/>
+                <constraint firstItem="0UG-sp-ZDB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yzX-yy-Q37"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
 </document>

@@ -18,10 +18,16 @@ class Gallery: UIViewController, UICollectionViewDataSource, UICollectionViewDel
     
     }
     
+    var Array: [String] = []
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        Array=["rachel.jpg","beagle.jpg","salsicha.jpg","smile.jpg","yorkshire.jpg","sky.jpg","house.jpg","window.jpg","stairs.jpg","forest.jpg","spirit.jpg"]
+        
         
         self.collectionView.registerNib(UINib(nibName:"IconCellGallery", bundle:NSBundle.mainBundle()), forCellWithReuseIdentifier: "cell")
     }
@@ -38,7 +44,7 @@ class Gallery: UIViewController, UICollectionViewDataSource, UICollectionViewDel
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     
-    return 2
+    return Array.count
         
     }
     
@@ -47,11 +53,19 @@ class Gallery: UIViewController, UICollectionViewDataSource, UICollectionViewDel
     
         var cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! IconCellGallery
         
-        if indexPath.row == 0 {
-            
-            cell.imageCellGallery.image = UIImage(named: "rachel.jpg")
-            
-        }
+        cell.imageCellGallery.image = UIImage(named: Array[indexPath.row])
+
+        
+//        if indexPath.row == 0 {
+//            
+//         cell.imageCellGallery.image = UIImage(named: "rachel.jpg")
+//            
+//        } else if indexPath.row == 1 {
+//        
+//         cell.imageCellGallery.image = UIImage(named: "beagle.jpg")
+//        
+//        }
+
         
     return cell
         
