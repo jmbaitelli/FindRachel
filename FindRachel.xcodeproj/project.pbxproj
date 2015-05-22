@@ -266,10 +266,7 @@
 				7D70B9A91B0E7FD100BC1FB3 /* GalleryIcon.png in Resources */,
 				42ABF9941B0BAA0300AB933D /* LaunchScreen.xib in Resources */,
 				7D3D46481B0CF83E004FC699 /* Notes.xib in Resources */,
-
-
 				7D70B9AF1B0E8DAC00BC1FB3 /* IconCellMainScreen.xib in Resources */,
-				42ABF9911B0BAA0300AB933D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

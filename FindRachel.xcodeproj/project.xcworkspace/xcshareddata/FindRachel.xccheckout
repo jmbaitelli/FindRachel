@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F36A4AF9-0F3A-4DCB-86FF-C890E3E23888</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>FindRachel</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>51135FA33650107B41E6E0DC99911E3DCC52CB9D</key>
 		<string>https://github.com/jmbaitelli/FindRachel.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FindRachel.xcodeproj/project.xcworkspace</string>
+	<string>FindRachel.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>51135FA33650107B41E6E0DC99911E3DCC52CB9D</key>
