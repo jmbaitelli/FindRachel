@@ -10,7 +10,9 @@ import UIKit
 import SpriteKit
 
 class Messages: UIViewController {
-
+// UITableViewDelegate, UITableViewDataSource
+    
+    @IBOutlet weak var tableView: UITableView!
     @IBAction func backButton(sender: AnyObject) {
         
 //        var controller: MainScreen = MainScreen(nibName:"MainScreen", bundle:NSBundle.mainBundle())
@@ -24,7 +26,8 @@ class Messages: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //tableView.delegate = self
+        //tableView.dataSource = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,15 +35,11 @@ class Messages: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+            return 5
     }
-    */
-
+    
+    
+    
 }

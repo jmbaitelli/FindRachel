@@ -37,6 +37,9 @@ class Locker: UIViewController {
         if count(valueString) == 1 {
             passImageView.image = UIImage(named: "1")
             lockLabel.text = ""
+            //TODO: apagar as duas linhas quando pronto
+            var controller: MainScreen = MainScreen(nibName:"MainScreen", bundle:NSBundle.mainBundle())
+            self.presentViewController(controller, animated: true, completion: nil)
         } else if count(valueString) == 2 {
             passImageView.image = UIImage(named: "2")
             //lockLabel.text = valueString
