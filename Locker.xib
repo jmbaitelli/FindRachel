@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Locker" customModule="FindRachel" customModuleProvider="target">
+            <connections>
+                <outlet property="lockLabel" destination="zyp-Nv-lQX" id="hVF-84-4ei"/>
+                <outlet property="passImageView" destination="JT2-rW-BNY" id="yJN-K0-6rH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H62-Gd-NjP">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="lockbutton2">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="hMA-8z-uUA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYJ-Us-Xcj">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="lockbutton5">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="llC-Ak-LhL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1p-ul-Tmv">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="lockbutton6">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="GfB-2R-ORM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTk-IX-H0v">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="lockbutton7">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="E5n-BM-hAA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6m-aJ-2hp">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="lockbutton8">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="EcQ-dy-k65"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msh-je-E9t">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="lockbutton0">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="9og-W0-In0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79e-u5-AaN">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="lockbutton4">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="BGL-GW-UNu"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxxx" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyp-Nv-lQX">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="38"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JT2-rW-BNY">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                        <rect key="frame" x="146" y="125" width="109" height="23"/>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digite o código" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gO1-fR-dPc">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8k-KC-JcM">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="lockbutton9">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="z5m-XD-qky"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWo-2U-SSN">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="lockbutton3">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="bVB-qd-qaX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88l-G1-YDb">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="lockbutton1">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="HCM-Im-69G"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="F6m-aJ-2hp" secondAttribute="centerX" id="141-OF-JrL"/>
+                <constraint firstAttribute="centerX" secondItem="msh-je-E9t" secondAttribute="centerX" id="39e-HN-gyl"/>
+                <constraint firstAttribute="centerY" secondItem="msh-je-E9t" secondAttribute="centerY" id="3mt-dq-JDX">
+                    <variation key="widthClass=compact" constant="-20"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="F6m-aJ-2hp" secondAttribute="centerX" id="4AS-Nb-S20"/>
+                <constraint firstAttribute="centerY" secondItem="h8k-KC-JcM" secondAttribute="centerY" id="77h-Nz-zKS">
+                    <variation key="heightClass=regular-widthClass=compact" constant="-3"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="gO1-fR-dPc" secondAttribute="centerX" id="BKv-VY-285"/>
+                <constraint firstAttribute="centerX" secondItem="H62-Gd-NjP" secondAttribute="centerX" id="CsW-5f-izN"/>
+                <constraint firstAttribute="centerX" secondItem="HYJ-Us-Xcj" secondAttribute="centerX" id="Gpg-R0-n7G">
+                    <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="HWo-2U-SSN" secondAttribute="centerX" id="Gvr-Oz-J9W">
+                    <variation key="heightClass=regular-widthClass=compact" constant="-97"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="F6m-aJ-2hp" secondAttribute="centerY" id="JEr-I5-GlC">
+                    <variation key="widthClass=compact" constant="20"/>
+                    <variation key="heightClass=regular-widthClass=compact" constant="-8.5"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="JT2-rW-BNY" secondAttribute="centerY" id="Jrp-sH-fvX">
+                    <variation key="heightClass=regular-widthClass=compact" constant="263.5"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="a1p-ul-Tmv" secondAttribute="centerY" id="JxP-7g-0z0">
+                    <variation key="widthClass=compact" constant="60"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="HWo-2U-SSN" secondAttribute="centerY" id="KBh-04-hPc">
+                    <variation key="heightClass=regular-widthClass=compact" constant="164"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="HYJ-Us-Xcj" secondAttribute="centerY" id="Ktp-ZW-s6j">
+                    <variation key="widthClass=compact" constant="60"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="H62-Gd-NjP" secondAttribute="centerY" id="Luf-EY-huc">
+                    <variation key="heightClass=regular-widthClass=compact" constant="164"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="F6m-aJ-2hp" secondAttribute="centerY" id="Nr0-WF-3og">
+                    <variation key="heightClass=regular-widthClass=compact" constant="-3"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="CTk-IX-H0v" secondAttribute="centerX" id="O7n-2i-LkR">
+                    <variation key="widthClass=compact" constant="70"/>
+                    <variation key="heightClass=regular-widthClass=compact" constant="95.5"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="79e-u5-AaN" secondAttribute="centerY" id="P1r-Xl-BjM">
+                    <variation key="heightClass=regular-widthClass=compact" constant="80"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="HYJ-Us-Xcj" secondAttribute="centerY" id="Ps1-BW-9ww">
+                    <variation key="heightClass=regular-widthClass=compact" constant="80"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="79e-u5-AaN" secondAttribute="centerY" id="Q9N-lo-EeR">
+                    <variation key="widthClass=compact" constant="60"/>
+                    <variation key="heightClass=regular-widthClass=compact" constant="80.5"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="a1p-ul-Tmv" secondAttribute="centerY" id="QWe-If-leF">
+                    <variation key="heightClass=regular-widthClass=compact" constant="80"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="a1p-ul-Tmv" secondAttribute="centerX" id="QsB-57-8of">
+                    <variation key="widthClass=compact" constant="-70"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="h8k-KC-JcM" secondAttribute="centerX" id="RFV-SR-Th2">
+                    <variation key="heightClass=regular-widthClass=compact" constant="-97"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="H62-Gd-NjP" secondAttribute="centerX" id="S2X-cu-b7c"/>
+                <constraint firstAttribute="centerX" secondItem="msh-je-E9t" secondAttribute="centerX" id="Tka-iu-Dk2"/>
+                <constraint firstAttribute="centerY" secondItem="CTk-IX-H0v" secondAttribute="centerY" id="UxX-E8-keu">
+                    <variation key="widthClass=compact" constant="20"/>
+                    <variation key="heightClass=regular-widthClass=compact" constant="-8.5"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="JT2-rW-BNY" secondAttribute="centerX" id="VYC-MT-lGc"/>
+                <constraint firstAttribute="centerX" secondItem="HYJ-Us-Xcj" secondAttribute="centerX" id="XIt-BT-dit"/>
+                <constraint firstAttribute="centerX" secondItem="79e-u5-AaN" secondAttribute="centerX" id="ayC-KC-s8A">
+                    <variation key="heightClass=regular-widthClass=compact" constant="97"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="H62-Gd-NjP" secondAttribute="centerY" id="bin-9G-qLh">
+                    <variation key="widthClass=compact" constant="100"/>
+                    <variation key="heightClass=regular-widthClass=compact" constant="166.5"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="CTk-IX-H0v" secondAttribute="centerX" id="buf-wK-okb">
+                    <variation key="heightClass=regular-widthClass=compact" constant="97"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="HWo-2U-SSN" secondAttribute="centerY" id="e9X-6D-8Sp">
+                    <variation key="widthClass=compact" constant="100"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="a1p-ul-Tmv" secondAttribute="centerX" id="eeT-rn-L8r">
+                    <variation key="heightClass=regular-widthClass=compact" constant="-97"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="H62-Gd-NjP" secondAttribute="centerX" id="ldh-yF-FEj"/>
+                <constraint firstAttribute="centerX" secondItem="HWo-2U-SSN" secondAttribute="centerX" id="pgw-bE-qYS">
+                    <variation key="widthClass=compact" constant="-70"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="gO1-fR-dPc" secondAttribute="centerY" id="qyU-o2-fo5">
+                    <variation key="heightClass=regular-widthClass=compact" constant="300"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="zyp-Nv-lQX" secondAttribute="centerY" id="rbk-Br-xX3">
+                    <variation key="heightClass=regular-widthClass=compact" constant="230"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="88l-G1-YDb" secondAttribute="centerX" id="u5D-aH-BA2">
+                    <variation key="heightClass=regular-widthClass=compact" constant="97"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="79e-u5-AaN" secondAttribute="centerX" id="uaz-uI-aNr">
+                    <variation key="widthClass=compact" constant="70"/>
+                    <variation key="heightClass=regular-widthClass=compact" constant="90"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="88l-G1-YDb" secondAttribute="centerY" id="vpA-l3-GHa">
+                    <variation key="heightClass=regular-widthClass=compact" constant="164"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="zyp-Nv-lQX" secondAttribute="centerX" id="w3H-Jb-6LD"/>
+                <constraint firstAttribute="centerY" secondItem="CTk-IX-H0v" secondAttribute="centerY" id="yg2-Pb-0ue">
+                    <variation key="heightClass=regular-widthClass=compact" constant="-3"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="msh-je-E9t" secondAttribute="centerY" id="zOE-RS-b7g">
+                    <variation key="heightClass=regular-widthClass=compact" constant="-85"/>
+                </constraint>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="H62-Gd-NjP"/>
+                    <exclude reference="HYJ-Us-Xcj"/>
+                    <exclude reference="a1p-ul-Tmv"/>
+                    <exclude reference="CTk-IX-H0v"/>
+                    <exclude reference="F6m-aJ-2hp"/>
+                    <exclude reference="msh-je-E9t"/>
+                    <exclude reference="79e-u5-AaN"/>
+                    <exclude reference="zyp-Nv-lQX"/>
+                    <exclude reference="JT2-rW-BNY"/>
+                    <exclude reference="gO1-fR-dPc"/>
+                    <exclude reference="h8k-KC-JcM"/>
+                    <exclude reference="HWo-2U-SSN"/>
+                    <exclude reference="88l-G1-YDb"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="BKv-VY-285"/>
+                    <exclude reference="qyU-o2-fo5"/>
+                    <exclude reference="rbk-Br-xX3"/>
+                    <exclude reference="w3H-Jb-6LD"/>
+                    <exclude reference="P1r-Xl-BjM"/>
+                    <exclude reference="Q9N-lo-EeR"/>
+                    <exclude reference="ayC-KC-s8A"/>
+                    <exclude reference="uaz-uI-aNr"/>
+                    <exclude reference="u5D-aH-BA2"/>
+                    <exclude reference="vpA-l3-GHa"/>
+                    <exclude reference="O7n-2i-LkR"/>
+                    <exclude reference="UxX-E8-keu"/>
+                    <exclude reference="buf-wK-okb"/>
+                    <exclude reference="yg2-Pb-0ue"/>
+                    <exclude reference="141-OF-JrL"/>
+                    <exclude reference="4AS-Nb-S20"/>
+                    <exclude reference="JEr-I5-GlC"/>
+                    <exclude reference="Nr0-WF-3og"/>
+                    <exclude reference="CsW-5f-izN"/>
+                    <exclude reference="Luf-EY-huc"/>
+                    <exclude reference="S2X-cu-b7c"/>
+                    <exclude reference="bin-9G-qLh"/>
+                    <exclude reference="ldh-yF-FEj"/>
+                    <exclude reference="Gvr-Oz-J9W"/>
+                    <exclude reference="KBh-04-hPc"/>
+                    <exclude reference="e9X-6D-8Sp"/>
+                    <exclude reference="pgw-bE-qYS"/>
+                    <exclude reference="Gpg-R0-n7G"/>
+                    <exclude reference="Ktp-ZW-s6j"/>
+                    <exclude reference="Ps1-BW-9ww"/>
+                    <exclude reference="XIt-BT-dit"/>
+                    <exclude reference="JxP-7g-0z0"/>
+                    <exclude reference="QWe-If-leF"/>
+                    <exclude reference="QsB-57-8of"/>
+                    <exclude reference="eeT-rn-L8r"/>
+                    <exclude reference="77h-Nz-zKS"/>
+                    <exclude reference="RFV-SR-Th2"/>
+                    <exclude reference="39e-HN-gyl"/>
+                    <exclude reference="3mt-dq-JDX"/>
+                    <exclude reference="Tka-iu-Dk2"/>
+                    <exclude reference="zOE-RS-b7g"/>
+                    <exclude reference="Jrp-sH-fvX"/>
+                    <exclude reference="VYC-MT-lGc"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="H62-Gd-NjP"/>
+                    <include reference="HYJ-Us-Xcj"/>
+                    <include reference="a1p-ul-Tmv"/>
+                    <include reference="CTk-IX-H0v"/>
+                    <include reference="F6m-aJ-2hp"/>
+                    <include reference="msh-je-E9t"/>
+                    <include reference="79e-u5-AaN"/>
+                    <include reference="HWo-2U-SSN"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="Q9N-lo-EeR"/>
+                    <include reference="uaz-uI-aNr"/>
+                    <include reference="O7n-2i-LkR"/>
+                    <include reference="UxX-E8-keu"/>
+                    <include reference="141-OF-JrL"/>
+                    <include reference="JEr-I5-GlC"/>
+                    <include reference="bin-9G-qLh"/>
+                    <include reference="ldh-yF-FEj"/>
+                    <include reference="e9X-6D-8Sp"/>
+                    <include reference="pgw-bE-qYS"/>
+                    <include reference="Ktp-ZW-s6j"/>
+                    <include reference="XIt-BT-dit"/>
+                    <include reference="JxP-7g-0z0"/>
+                    <include reference="QsB-57-8of"/>
+                    <include reference="3mt-dq-JDX"/>
+                    <include reference="Tka-iu-Dk2"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="zyp-Nv-lQX"/>
+                    <include reference="JT2-rW-BNY"/>
+                    <include reference="gO1-fR-dPc"/>
+                    <include reference="h8k-KC-JcM"/>
+                    <include reference="88l-G1-YDb"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="BKv-VY-285"/>
+                    <include reference="qyU-o2-fo5"/>
+                    <include reference="rbk-Br-xX3"/>
+                    <include reference="w3H-Jb-6LD"/>
+                    <include reference="P1r-Xl-BjM"/>
+                    <exclude reference="Q9N-lo-EeR"/>
+                    <include reference="ayC-KC-s8A"/>
+                    <exclude reference="uaz-uI-aNr"/>
+                    <include reference="u5D-aH-BA2"/>
+                    <include reference="vpA-l3-GHa"/>
+                    <exclude reference="O7n-2i-LkR"/>
+                    <exclude reference="UxX-E8-keu"/>
+                    <include reference="buf-wK-okb"/>
+                    <include reference="yg2-Pb-0ue"/>
+                    <exclude reference="141-OF-JrL"/>
+                    <include reference="4AS-Nb-S20"/>
+                    <exclude reference="JEr-I5-GlC"/>
+                    <include reference="Nr0-WF-3og"/>
+                    <exclude reference="CsW-5f-izN"/>
+                    <include reference="Luf-EY-huc"/>
+                    <include reference="S2X-cu-b7c"/>
+                    <exclude reference="bin-9G-qLh"/>
+                    <exclude reference="ldh-yF-FEj"/>
+                    <include reference="Gvr-Oz-J9W"/>
+                    <include reference="KBh-04-hPc"/>
+                    <exclude reference="e9X-6D-8Sp"/>
+                    <exclude reference="pgw-bE-qYS"/>
+                    <include reference="Gpg-R0-n7G"/>
+                    <exclude reference="Ktp-ZW-s6j"/>
+                    <include reference="Ps1-BW-9ww"/>
+                    <exclude reference="XIt-BT-dit"/>
+                    <exclude reference="JxP-7g-0z0"/>
+                    <include reference="QWe-If-leF"/>
+                    <exclude reference="QsB-57-8of"/>
+                    <include reference="eeT-rn-L8r"/>
+                    <include reference="77h-Nz-zKS"/>
+                    <include reference="RFV-SR-Th2"/>
+                    <include reference="39e-HN-gyl"/>
+                    <exclude reference="3mt-dq-JDX"/>
+                    <exclude reference="Tka-iu-Dk2"/>
+                    <include reference="zOE-RS-b7g"/>
+                    <include reference="Jrp-sH-fvX"/>
+                    <include reference="VYC-MT-lGc"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="230" y="334"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lockbutton0" width="69" height="69"/>
+        <image name="lockbutton1" width="69" height="69"/>
+        <image name="lockbutton2" width="69" height="69"/>
+        <image name="lockbutton3" width="69" height="69"/>
+        <image name="lockbutton4" width="69" height="69"/>
+        <image name="lockbutton5" width="69" height="69"/>
+        <image name="lockbutton6" width="69" height="69"/>
+        <image name="lockbutton7" width="69" height="69"/>
+        <image name="lockbutton8" width="69" height="69"/>
+        <image name="lockbutton9" width="69" height="69"/>
+    </resources>
+</document>
