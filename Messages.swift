@@ -9,12 +9,11 @@
 import UIKit
 import SpriteKit
 
-class Messages: UIViewController {
-// UITableViewDelegate, UITableViewDataSource
+class Messages: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    let swiftBlogs = ["Ray Wenderlich", "NSHipster", "iOS Developer Tips", "Jameson Quave", "Natasha The Robot", "Coding Explorer", "That Thing In Swift", "Andrew Bancroft", "iAchieved.it", "Airspeed Velocity"]
     @IBOutlet weak var tableView: UITableView!
     @IBAction func backButton(sender: AnyObject) {
-        
 //        var controller: MainScreen = MainScreen(nibName:"MainScreen", bundle:NSBundle.mainBundle())
 //        
 //        self.presentViewController(controller, animated: true, completion: nil)
@@ -26,8 +25,8 @@ class Messages: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //tableView.delegate = self
-        //tableView.dataSource = self
+        tableView.delegate = self
+        tableView.dataSource = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,9 +34,22 @@ class Messages: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-            return 5
+            return swiftBlogs.count
+    }
+
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
+        
+        let row = indexPath.row
+        cell.textLabel?.text = swiftBlogs[row]
+        
+        return cell
     }
     
     
