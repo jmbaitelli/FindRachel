@@ -21,9 +21,9 @@
                         <rect key="frame" x="0.0" y="49" width="400" height="551"/>
                     </variation>
                 </tableView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qw-0U-tcA">
-                    <rect key="frame" x="15" y="22" width="61" height="30"/>
-                    <state key="normal" title="Button">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qw-0U-tcA">
+                    <rect key="frame" x="15" y="29" width="61" height="30"/>
+                    <state key="normal" title="Back">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <variation key="widthClass=compact" fixedFrame="YES">
@@ -37,6 +37,9 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="6oP-6a-eQJ" secondAttribute="trailing" id="3CP-co-hDp"/>
+                <constraint firstItem="6oP-6a-eQJ" firstAttribute="top" secondItem="3qw-0U-tcA" secondAttribute="bottom" constant="1" id="3Hm-2D-BYS"/>
+                <constraint firstItem="3qw-0U-tcA" firstAttribute="leading" secondItem="6oP-6a-eQJ" secondAttribute="leading" constant="15" id="GCz-41-f2u"/>
+                <constraint firstItem="6oP-6a-eQJ" firstAttribute="leading" secondItem="3qw-0U-tcA" secondAttribute="trailing" constant="-76" id="GR2-VY-195"/>
                 <constraint firstItem="6oP-6a-eQJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="ZDM-ao-Ulw"/>
                 <constraint firstAttribute="bottom" secondItem="6oP-6a-eQJ" secondAttribute="bottom" id="wqg-9v-SGm"/>
                 <constraint firstItem="6oP-6a-eQJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zZq-YT-c1n"/>
