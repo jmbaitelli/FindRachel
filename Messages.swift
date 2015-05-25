@@ -14,11 +14,10 @@ class Messages: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let swiftBlogs = ["Ray Wenderlich", "NSHipster", "iOS Developer Tips", "Jameson Quave", "Natasha The Robot", "Coding Explorer", "That Thing In Swift", "Andrew Bancroft", "iAchieved.it", "Airspeed Velocity"]
     @IBOutlet weak var tableView: UITableView!
     @IBAction func backButton(sender: AnyObject) {
-//        var controller: MainScreen = MainScreen(nibName:"MainScreen", bundle:NSBundle.mainBundle())
-//        
-//        self.presentViewController(controller, animated: true, completion: nil)
-
-         self.dismissViewControllerAnimated(true, completion: nil)
+        var controller: MainScreen = MainScreen(nibName:"MainScreen", bundle:NSBundle.mainBundle())
+        
+        //self.presentViewController(controller, animated: true, completion: nil)
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     
@@ -44,10 +43,9 @@ class Messages: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
+        let cell:UITableViewCell=UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "mycell")
         
-        let row = indexPath.row
-        cell.textLabel?.text = swiftBlogs[row]
+        cell.textLabel!.text = swiftBlogs[indexPath.row]
         
         return cell
     }
