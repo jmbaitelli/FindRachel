@@ -13,10 +13,12 @@ class Gallery: UIViewController, UICollectionViewDataSource, UICollectionViewDel
     @IBOutlet var collectionView: UICollectionView!
 
     @IBAction func backButton(sender: AnyObject) {
-    
+        
     self.dismissViewControllerAnimated(true, completion: nil)
     
     }
+    
+    var imageView = UIImageView()
     
     var Array: [String] = []
     
@@ -30,6 +32,8 @@ class Gallery: UIViewController, UICollectionViewDataSource, UICollectionViewDel
         
         
         self.collectionView.registerNib(UINib(nibName:"IconCellGallery", bundle:NSBundle.mainBundle()), forCellWithReuseIdentifier: "cell")
+        
+      
     }
 
     override func didReceiveMemoryWarning() {
@@ -78,13 +82,24 @@ class Gallery: UIViewController, UICollectionViewDataSource, UICollectionViewDel
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath)
         
     {
+       
+        let image = UIImage(named: Array[indexPath.row])
+        //let imageView = UIImageView(image: image!)
+        
+//        imageView = UIImageView (image: image!)
+//        imageView.contentMode = .ScaleAspectFit
+//        imageView.frame = CGRect(x: 0, y: 0, width: 400, height: 600)
+//        view.addSubview(imageView)
+        
         println(indexPath.row)
         
+        
+        var controller: Photos = Photos(nibName:"Photos", bundle:NSBundle.mainBundle())
+        controller.imageName = Array[indexPath.row]
+        
+        self.presentViewController(controller, animated: true, completion: nil)
+        
     }
-
-
-
-    
     
 
   /*  // In a storyboard-based application, you will often want to do a little preparation before navigation
