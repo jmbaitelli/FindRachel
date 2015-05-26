@@ -13,6 +13,12 @@
 		42ABF98F1B0BAA0300AB933D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ABF98D1B0BAA0300AB933D /* Main.storyboard */; };
 		42ABF9941B0BAA0300AB933D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42ABF9921B0BAA0300AB933D /* LaunchScreen.xib */; };
 		42ABF9A01B0BAA0300AB933D /* FindRachelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ABF99F1B0BAA0300AB933D /* FindRachelTests.swift */; };
+		60F4B0E91B13D32400691114 /* MessagesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F4B0E81B13D32400691114 /* MessagesTVCell.xib */; };
+		60F4B0EF1B13D5C700691114 /* MessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4B0EE1B13D5C700691114 /* MessagesCell.swift */; };
+		60F4B0F21B14F4E500691114 /* ContactMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4B0F01B14F4E500691114 /* ContactMessageViewController.swift */; };
+		60F4B0F31B14F4E500691114 /* ContactMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F4B0F11B14F4E500691114 /* ContactMessageViewController.xib */; };
+		60F4B0F51B14F94200691114 /* ContactMessagesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F4B0F41B14F94200691114 /* ContactMessagesTVCell.xib */; };
+		60F4B0F71B14F98300691114 /* ContactMessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4B0F61B14F98300691114 /* ContactMessagesCell.swift */; };
 		7D18CEDF1B0E8ED300F3B340 /* IconCellGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18CEDD1B0E8ED300F3B340 /* IconCellGallery.swift */; };
 		7D18CEE01B0E8ED300F3B340 /* IconCellGallery.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D18CEDE1B0E8ED300F3B340 /* IconCellGallery.xib */; };
 		7D3D46431B0CF809004FC699 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D46411B0CF809004FC699 /* Gallery.swift */; };
@@ -59,6 +65,12 @@
 		42ABF9991B0BAA0300AB933D /* FindRachelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindRachelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ABF99E1B0BAA0300AB933D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42ABF99F1B0BAA0300AB933D /* FindRachelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRachelTests.swift; sourceTree = "<group>"; };
+		60F4B0E81B13D32400691114 /* MessagesTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesTVCell.xib; sourceTree = "<group>"; };
+		60F4B0EE1B13D5C700691114 /* MessagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCell.swift; sourceTree = "<group>"; };
+		60F4B0F01B14F4E500691114 /* ContactMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactMessageViewController.swift; sourceTree = "<group>"; };
+		60F4B0F11B14F4E500691114 /* ContactMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactMessageViewController.xib; sourceTree = "<group>"; };
+		60F4B0F41B14F94200691114 /* ContactMessagesTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactMessagesTVCell.xib; sourceTree = "<group>"; };
+		60F4B0F61B14F98300691114 /* ContactMessagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactMessagesCell.swift; sourceTree = "<group>"; };
 		7D18CEDD1B0E8ED300F3B340 /* IconCellGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCellGallery.swift; sourceTree = "<group>"; };
 		7D18CEDE1B0E8ED300F3B340 /* IconCellGallery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconCellGallery.xib; sourceTree = "<group>"; };
 		7D3D46411B0CF809004FC699 /* Gallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
@@ -155,8 +167,7 @@
 				7DBFEB371B0BAC9B008F189E /* Start.xib */,
 				7DBFEB3A1B0BADB6008F189E /* Locker.swift */,
 				7DBFEB3B1B0BADB6008F189E /* Locker.xib */,
-				7DBFEB4A1B0BB899008F189E /* Messages.swift */,
-				7DBFEB4B1B0BB899008F189E /* Messages.xib */,
+				60F4B0F81B15058900691114 /* Messages */,
 				7D70B99A1B0E677B00BC1FB3 /* MainScreen.swift */,
 				7D70B99B1B0E677B00BC1FB3 /* MainScreen.xib */,
 				7D3D46411B0CF809004FC699 /* Gallery.swift */,
@@ -200,6 +211,21 @@
 				42ABF99E1B0BAA0300AB933D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60F4B0F81B15058900691114 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				7DBFEB4A1B0BB899008F189E /* Messages.swift */,
+				7DBFEB4B1B0BB899008F189E /* Messages.xib */,
+				60F4B0EE1B13D5C700691114 /* MessagesCell.swift */,
+				60F4B0E81B13D32400691114 /* MessagesTVCell.xib */,
+				60F4B0F01B14F4E500691114 /* ContactMessageViewController.swift */,
+				60F4B0F11B14F4E500691114 /* ContactMessageViewController.xib */,
+				60F4B0F61B14F98300691114 /* ContactMessagesCell.swift */,
+				60F4B0F41B14F94200691114 /* ContactMessagesTVCell.xib */,
+			);
+			name = Messages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,16 +316,19 @@
 				7DBFEB3D1B0BADB6008F189E /* Locker.xib in Resources */,
 				7D18CEE01B0E8ED300F3B340 /* IconCellGallery.xib in Resources */,
 				7D70B9A31B0E753400BC1FB3 /* rachel.jpg in Resources */,
+				60F4B0E91B13D32400691114 /* MessagesTVCell.xib in Resources */,
 				7D70B99D1B0E677B00BC1FB3 /* MainScreen.xib in Resources */,
 				42ABF98F1B0BAA0300AB933D /* Main.storyboard in Resources */,
 				7D70B9AB1B0E801900BC1FB3 /* NotesIcon.png in Resources */,
 				7DCF99A51B13BF5300B0A117 /* Photos.xib in Resources */,
 				7D3D46441B0CF809004FC699 /* Gallery.xib in Resources */,
 				7DBFEB4D1B0BB899008F189E /* Messages.xib in Resources */,
+				60F4B0F31B14F4E500691114 /* ContactMessageViewController.xib in Resources */,
 				7D70B9A51B0E7C9A00BC1FB3 /* MessagesIcon.png in Resources */,
 				7D70B9A91B0E7FD100BC1FB3 /* GalleryIcon.png in Resources */,
 				42ABF9941B0BAA0300AB933D /* LaunchScreen.xib in Resources */,
 				7D3D46481B0CF83E004FC699 /* Notes.xib in Resources */,
+				60F4B0F51B14F94200691114 /* ContactMessagesTVCell.xib in Resources */,
 				7D70B9AF1B0E8DAC00BC1FB3 /* IconCellMainScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,11 +396,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D70B99C1B0E677B00BC1FB3 /* MainScreen.swift in Sources */,
+				60F4B0EF1B13D5C700691114 /* MessagesCell.swift in Sources */,
 				42ABF98C1B0BAA0300AB933D /* ViewController.swift in Sources */,
 				7D3D46431B0CF809004FC699 /* Gallery.swift in Sources */,
 				7DBFEB4C1B0BB899008F189E /* Messages.swift in Sources */,
+				60F4B0F21B14F4E500691114 /* ContactMessageViewController.swift in Sources */,
 				7DBFEB381B0BAC9B008F189E /* Start.swift in Sources */,
 				7DCF99A41B13BF5300B0A117 /* Photos.swift in Sources */,
+				60F4B0F71B14F98300691114 /* ContactMessagesCell.swift in Sources */,
 				42ABF98A1B0BAA0300AB933D /* AppDelegate.swift in Sources */,
 				7D70B9AE1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift in Sources */,
 				7DBFEB3C1B0BADB6008F189E /* Locker.swift in Sources */,
