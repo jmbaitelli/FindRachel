@@ -68,7 +68,7 @@
                         <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="uvk-nf-UOB"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kf-AW-WZd" userLabel="Button1">
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kf-AW-WZd" userLabel="Button1" customClass="SpringButton" customModule="Spring">
                     <rect key="frame" x="175" y="174" width="69" height="69"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="69" id="GZy-gK-av8"/>
@@ -77,6 +77,8 @@
                     <state key="normal" image="lockbutton1">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <state key="selected" backgroundImage="2"/>
+                    <state key="highlighted" image="lockbutton5"/>
                     <connections>
                         <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="w1w-OB-zWf"/>
                     </connections>
@@ -209,6 +211,7 @@
     </objects>
     <resources>
         <image name="0" width="238" height="52"/>
+        <image name="2" width="238" height="52"/>
         <image name="lockbutton0" width="69" height="69"/>
         <image name="lockbutton1" width="69" height="69"/>
         <image name="lockbutton2" width="69" height="69"/>

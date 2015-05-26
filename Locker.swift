@@ -8,6 +8,7 @@
 
 import UIKit
 import SpriteKit
+import Spring
 
 class Locker: UIViewController {
 
@@ -26,6 +27,8 @@ class Locker: UIViewController {
     
     @IBAction func tappedNumber(sender: AnyObject) {
         
+        
+        
         var num = sender.tag
         //println(num)
         var numAsString = "\(num)"
@@ -33,13 +36,16 @@ class Locker: UIViewController {
         valueString = valueString.stringByAppendingString(numAsString)
         //println(valueString)
         
+        
+        println(numAsString)
+        
         //MUDA IMAGEM E CONFERE SENHA
         if count(valueString) == 1 {
             passImageView.image = UIImage(named: "1")
             lockLabel.text = ""
             //TODO: apagar as duas linhas quando pronto
-            var controller: MainScreen = MainScreen(nibName:"MainScreen", bundle:NSBundle.mainBundle())
-            self.presentViewController(controller, animated: true, completion: nil)
+//            var controller: MainScreen = MainScreen(nibName:"MainScreen", bundle:NSBundle.mainBundle())
+//            self.presentViewController(controller, animated: true, completion: nil)
         } else if count(valueString) == 2 {
             passImageView.image = UIImage(named: "2")
             //lockLabel.text = valueString

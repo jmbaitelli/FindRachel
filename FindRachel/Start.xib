@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Start" customModule="FindRachel" customModuleProvider="target">
@@ -14,14 +14,15 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Rachel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOT-2P-EB7">
-                    <rect key="frame" x="255" y="290" width="91" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FINDRACHELlayouy1" translatesAutoresizingMaskIntoConstraints="NO" id="ngx-fs-DHk">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I01-hG-mCv">
-                    <rect key="frame" x="284" y="325" width="33" height="30"/>
+                    <rect key="frame" x="284" y="285" width="33" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="LIs-ya-egT"/>
+                        <constraint firstAttribute="width" constant="33" id="nyu-qJ-zHe"/>
+                    </constraints>
                     <state key="normal" title="Start">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -30,15 +31,20 @@
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="I01-hG-mCv" firstAttribute="top" secondItem="bOT-2P-EB7" secondAttribute="bottom" constant="14" id="F1i-YA-Scd"/>
-                <constraint firstItem="I01-hG-mCv" firstAttribute="centerX" secondItem="bOT-2P-EB7" secondAttribute="centerX" id="Qa4-Ut-HEU"/>
-                <constraint firstAttribute="centerY" secondItem="bOT-2P-EB7" secondAttribute="centerY" id="RTw-z8-New"/>
-                <constraint firstAttribute="centerX" secondItem="bOT-2P-EB7" secondAttribute="centerX" id="f9b-gx-E4Q"/>
+                <constraint firstItem="ngx-fs-DHk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BlN-ju-0Uw"/>
+                <constraint firstAttribute="centerY" secondItem="I01-hG-mCv" secondAttribute="centerY" id="JkX-RR-rvD"/>
+                <constraint firstItem="ngx-fs-DHk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Vmg-uI-ziA"/>
+                <constraint firstAttribute="bottom" secondItem="ngx-fs-DHk" secondAttribute="bottom" id="WaM-ZQ-4wD"/>
+                <constraint firstAttribute="trailing" secondItem="ngx-fs-DHk" secondAttribute="trailing" id="gWF-y9-Yir"/>
+                <constraint firstAttribute="centerX" secondItem="I01-hG-mCv" secondAttribute="centerX" id="uZr-oE-Tqm"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="316" y="327"/>
         </view>
     </objects>
+    <resources>
+        <image name="FINDRACHELlayouy1" width="752" height="1336"/>
+    </resources>
 </document>
