@@ -14,8 +14,8 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c4o-Uk-XKs">
-                    <rect key="frame" x="0.0" y="60" width="600" height="540"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c4o-Uk-XKs">
+                    <rect key="frame" x="0.0" y="105" width="600" height="428"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAt-Qx-XYt">
                     <rect key="frame" x="30" y="25" width="40" height="30"/>
@@ -28,7 +28,17 @@
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="c4o-Uk-XKs" secondAttribute="bottom" constant="67" id="HoW-lc-l8K"/>
+                <constraint firstItem="c4o-Uk-XKs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="105" id="cKn-D7-ERm"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="HoW-lc-l8K"/>
+                    <exclude reference="cKn-D7-ERm"/>
+                </mask>
+            </variation>
         </view>
     </objects>
 </document>

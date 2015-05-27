@@ -98,7 +98,7 @@ class MainScreen: UIViewController, UICollectionViewDataSource, UICollectionView
         
         } else if indexPath.row == 2 {
             
-            var controller = Notes(nibName:"Notes", bundle:NSBundle.mainBundle())
+            var controller = Notes2ViewController(nibName:"Notes2ViewController", bundle:NSBundle.mainBundle())
             
             self.presentViewController(controller, animated: true, completion: nil)
             
