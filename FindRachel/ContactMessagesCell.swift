@@ -11,8 +11,7 @@ import UIKit
 class ContactMessagesCell: UITableViewCell {
 
     
-    //@IBOutlet var messageImageView: UIImageView!
-    @IBOutlet var messageLabel: UILabel!
+    @IBOutlet var messageImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

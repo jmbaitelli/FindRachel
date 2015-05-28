@@ -12,22 +12,13 @@
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LnV-5v-whF" id="r9a-as-bDz">
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JvC-Uf-dwB">
-                        <rect key="frame" x="15" y="15" width="290" height="164"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0EW-mf-1aX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="193"/>
+                    </imageView>
                 </subviews>
-                <constraints>
-                    <constraint firstAttribute="trailing" secondItem="JvC-Uf-dwB" secondAttribute="trailing" constant="15" id="9LC-ox-lqk"/>
-                    <constraint firstAttribute="bottom" secondItem="JvC-Uf-dwB" secondAttribute="bottom" constant="14" id="EIh-GF-wKp"/>
-                    <constraint firstItem="JvC-Uf-dwB" firstAttribute="leading" secondItem="r9a-as-bDz" secondAttribute="leading" constant="15" id="eoN-7A-y2X"/>
-                    <constraint firstItem="JvC-Uf-dwB" firstAttribute="top" secondItem="r9a-as-bDz" secondAttribute="top" constant="15" id="ywY-c4-WcO"/>
-                </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="messageLabel" destination="JvC-Uf-dwB" id="pdK-nK-jZ8"/>
+                <outlet property="messageImageView" destination="0EW-mf-1aX" id="PbG-X5-Ihf"/>
             </connections>
             <point key="canvasLocation" x="261" y="433"/>
         </tableViewCell>
