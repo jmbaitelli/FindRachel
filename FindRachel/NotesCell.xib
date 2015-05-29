@@ -15,13 +15,14 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My life turned into a..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4r-Qq-eYY">
                         <rect key="frame" x="8" y="14" width="167" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
             </tableViewCellContentView>
             <connections>
                 <outlet property="labelNotes" destination="H4r-Qq-eYY" id="vCP-WE-8fW"/>
+                <outlet property="tableViewCell" destination="p3O-RT-LXy" id="dFw-BA-I70"/>
             </connections>
             <point key="canvasLocation" x="122" y="192"/>
         </tableViewCell>

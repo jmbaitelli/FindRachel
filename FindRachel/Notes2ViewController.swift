@@ -17,7 +17,7 @@ class Notes2ViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     @IBOutlet var tableView: UITableView!
     
-    var tableData = ["My life turned into a nightmare...","Today I went to college...","I've never felt this way...", "Love you, xoxo Chloe...", "Hey beauty, you sould...", "Buy eggs", "Download: Gone Girl "]
+    var tableData = ["All you need is love, love...","Today I went to college...","I've never felt this way...", "Love you, xoxo Chloe...", "I make poems...", "Buy eggs", "Download: Gone Girl "]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +31,7 @@ class Notes2ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         tableView.registerNib(nib, forCellReuseIdentifier: "cell")
         
         
+       
         
     }
 
@@ -56,15 +57,27 @@ class Notes2ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
     }
     
+    //func q seleciona a celula e leva para uma view
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
     
+//        if indexPath.row == 0 {
+//            var controller = NotesView(nibName:"NotesView", bundle:NSBundle.mainBundle())
+//            self.presentViewController(controller, animated: true, completion: nil)
+//        } else if indexPath.row == 1 {
+//        }
+
+        var controller = NotesView(nibName:"NotesView", bundle:NSBundle.mainBundle())
+        self.presentViewController(controller, animated: true, completion: nil)
+        
+        controller.noteLabel.text = tableData[indexPath.row]
+        
         println(indexPath.row)
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 50
     }
-    
+
     
     
     

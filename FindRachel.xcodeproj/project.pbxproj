@@ -29,6 +29,8 @@
 		7D16DB691B17B22F00B02AE7 /* IconCellCameraRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16DB671B17B22F00B02AE7 /* IconCellCameraRoll.swift */; };
 		7D16DB6A1B17B22F00B02AE7 /* IconCellCameraRoll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D16DB681B17B22F00B02AE7 /* IconCellCameraRoll.xib */; };
 		7D16DB6C1B17B7C200B02AE7 /* GalleryIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D16DB6B1B17B7C200B02AE7 /* GalleryIcon.png */; };
+		7D16DB761B18FF1800B02AE7 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16DB741B18FF1800B02AE7 /* NotesView.swift */; };
+		7D16DB771B18FF1800B02AE7 /* NotesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D16DB751B18FF1800B02AE7 /* NotesView.xib */; };
 		7D18CEDF1B0E8ED300F3B340 /* IconCellGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18CEDD1B0E8ED300F3B340 /* IconCellGallery.swift */; };
 		7D18CEE01B0E8ED300F3B340 /* IconCellGallery.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D18CEDE1B0E8ED300F3B340 /* IconCellGallery.xib */; };
 		7D3D46431B0CF809004FC699 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D46411B0CF809004FC699 /* Gallery.swift */; };
@@ -91,6 +93,8 @@
 		7D16DB671B17B22F00B02AE7 /* IconCellCameraRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCellCameraRoll.swift; sourceTree = "<group>"; };
 		7D16DB681B17B22F00B02AE7 /* IconCellCameraRoll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconCellCameraRoll.xib; sourceTree = "<group>"; };
 		7D16DB6B1B17B7C200B02AE7 /* GalleryIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GalleryIcon.png; sourceTree = "<group>"; };
+		7D16DB741B18FF1800B02AE7 /* NotesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		7D16DB751B18FF1800B02AE7 /* NotesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotesView.xib; sourceTree = "<group>"; };
 		7D18CEDD1B0E8ED300F3B340 /* IconCellGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCellGallery.swift; sourceTree = "<group>"; };
 		7D18CEDE1B0E8ED300F3B340 /* IconCellGallery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconCellGallery.xib; sourceTree = "<group>"; };
 		7D3D46411B0CF809004FC699 /* Gallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
@@ -196,12 +200,9 @@
 				7D3D46421B0CF809004FC699 /* Gallery.xib */,
 				7D18CEDD1B0E8ED300F3B340 /* IconCellGallery.swift */,
 				7D18CEDE1B0E8ED300F3B340 /* IconCellGallery.xib */,
-				7DAE7B591B16342B002B6D4A /* Notes2ViewController.swift */,
-				7DAE7B5A1B16342B002B6D4A /* Notes2ViewController.xib */,
+				7D16DB731B18FEA900B02AE7 /* Notes */,
 				7DCF99A21B13BF5300B0A117 /* Photos.swift */,
 				7DCF99A31B13BF5300B0A117 /* Photos.xib */,
-				7DAE7B5D1B163B64002B6D4A /* NotesCell.xib */,
-				7DAE7B5F1B163C68002B6D4A /* NotesTableViewCell.swift */,
 				7DAE7B631B17A069002B6D4A /* ReceivedFiles.swift */,
 				7DAE7B641B17A069002B6D4A /* ReceivedFiles.xib */,
 				7D16DB571B17A2EC00B02AE7 /* IconCellReceivedFiles.swift */,
@@ -256,6 +257,19 @@
 				60F4B0F41B14F94200691114 /* ContactMessagesTVCell.xib */,
 			);
 			name = Messages;
+			sourceTree = "<group>";
+		};
+		7D16DB731B18FEA900B02AE7 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				7DAE7B591B16342B002B6D4A /* Notes2ViewController.swift */,
+				7DAE7B5A1B16342B002B6D4A /* Notes2ViewController.xib */,
+				7DAE7B5F1B163C68002B6D4A /* NotesTableViewCell.swift */,
+				7DAE7B5D1B163B64002B6D4A /* NotesCell.xib */,
+				7D16DB741B18FF1800B02AE7 /* NotesView.swift */,
+				7D16DB751B18FF1800B02AE7 /* NotesView.xib */,
+			);
+			name = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +370,7 @@
 				7D3D46441B0CF809004FC699 /* Gallery.xib in Resources */,
 				7DBFEB4D1B0BB899008F189E /* Messages.xib in Resources */,
 				7D16DB5C1B17A4B700B02AE7 /* ReceivedFiles.png in Resources */,
+				7D16DB771B18FF1800B02AE7 /* NotesView.xib in Resources */,
 				7D16DB6C1B17B7C200B02AE7 /* GalleryIcon.png in Resources */,
 				60F4B0F31B14F4E500691114 /* ContactMessageViewController.xib in Resources */,
 				7DAE7B5C1B16342B002B6D4A /* Notes2ViewController.xib in Resources */,
@@ -432,6 +447,7 @@
 			files = (
 				7D16DB691B17B22F00B02AE7 /* IconCellCameraRoll.swift in Sources */,
 				7D70B99C1B0E677B00BC1FB3 /* MainScreen.swift in Sources */,
+				7D16DB761B18FF1800B02AE7 /* NotesView.swift in Sources */,
 				60F4B0EF1B13D5C700691114 /* MessagesCell.swift in Sources */,
 				7DAE7B601B163C68002B6D4A /* NotesTableViewCell.swift in Sources */,
 				42ABF98C1B0BAA0300AB933D /* ViewController.swift in Sources */,
