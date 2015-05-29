@@ -19,16 +19,22 @@
 		60F4B0F31B14F4E500691114 /* ContactMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F4B0F11B14F4E500691114 /* ContactMessageViewController.xib */; };
 		60F4B0F51B14F94200691114 /* ContactMessagesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F4B0F41B14F94200691114 /* ContactMessagesTVCell.xib */; };
 		60F4B0F71B14F98300691114 /* ContactMessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4B0F61B14F98300691114 /* ContactMessagesCell.swift */; };
+		7D16DB591B17A2EC00B02AE7 /* IconCellReceivedFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16DB571B17A2EC00B02AE7 /* IconCellReceivedFiles.swift */; };
+		7D16DB5A1B17A2EC00B02AE7 /* IconCellReceivedFiles.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D16DB581B17A2EC00B02AE7 /* IconCellReceivedFiles.xib */; };
+		7D16DB5C1B17A4B700B02AE7 /* ReceivedFiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D16DB5B1B17A4B700B02AE7 /* ReceivedFiles.png */; };
+		7D16DB601B17AD3100B02AE7 /* NotesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D16DB5F1B17AD3100B02AE7 /* NotesIcon.png */; };
+		7D16DB621B17AD8200B02AE7 /* MessagesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D16DB611B17AD8200B02AE7 /* MessagesIcon.png */; };
+		7D16DB651B17AEF400B02AE7 /* CameraRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16DB631B17AEF400B02AE7 /* CameraRoll.swift */; };
+		7D16DB661B17AEF400B02AE7 /* CameraRoll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D16DB641B17AEF400B02AE7 /* CameraRoll.xib */; };
+		7D16DB691B17B22F00B02AE7 /* IconCellCameraRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16DB671B17B22F00B02AE7 /* IconCellCameraRoll.swift */; };
+		7D16DB6A1B17B22F00B02AE7 /* IconCellCameraRoll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D16DB681B17B22F00B02AE7 /* IconCellCameraRoll.xib */; };
+		7D16DB6C1B17B7C200B02AE7 /* GalleryIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D16DB6B1B17B7C200B02AE7 /* GalleryIcon.png */; };
 		7D18CEDF1B0E8ED300F3B340 /* IconCellGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18CEDD1B0E8ED300F3B340 /* IconCellGallery.swift */; };
 		7D18CEE01B0E8ED300F3B340 /* IconCellGallery.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D18CEDE1B0E8ED300F3B340 /* IconCellGallery.xib */; };
 		7D3D46431B0CF809004FC699 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D46411B0CF809004FC699 /* Gallery.swift */; };
 		7D3D46441B0CF809004FC699 /* Gallery.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D3D46421B0CF809004FC699 /* Gallery.xib */; };
 		7D70B99C1B0E677B00BC1FB3 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D70B99A1B0E677B00BC1FB3 /* MainScreen.swift */; };
 		7D70B99D1B0E677B00BC1FB3 /* MainScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D70B99B1B0E677B00BC1FB3 /* MainScreen.xib */; };
-		7D70B9A31B0E753400BC1FB3 /* rachel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D70B9A21B0E753400BC1FB3 /* rachel.jpg */; };
-		7D70B9A51B0E7C9A00BC1FB3 /* MessagesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D70B9A41B0E7C9A00BC1FB3 /* MessagesIcon.png */; };
-		7D70B9A91B0E7FD100BC1FB3 /* GalleryIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D70B9A81B0E7FD100BC1FB3 /* GalleryIcon.png */; };
-		7D70B9AB1B0E801900BC1FB3 /* NotesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D70B9AA1B0E801900BC1FB3 /* NotesIcon.png */; };
 		7D70B9AE1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D70B9AC1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift */; };
 		7D70B9AF1B0E8DAC00BC1FB3 /* IconCellMainScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D70B9AD1B0E8DAC00BC1FB3 /* IconCellMainScreen.xib */; };
 		7DAE7B5B1B16342B002B6D4A /* Notes2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE7B591B16342B002B6D4A /* Notes2ViewController.swift */; };
@@ -36,6 +42,8 @@
 		7DAE7B5E1B163B64002B6D4A /* NotesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DAE7B5D1B163B64002B6D4A /* NotesCell.xib */; };
 		7DAE7B601B163C68002B6D4A /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE7B5F1B163C68002B6D4A /* NotesTableViewCell.swift */; };
 		7DAE7B621B179C69002B6D4A /* Locker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE7B611B179C69002B6D4A /* Locker.swift */; };
+		7DAE7B651B17A069002B6D4A /* ReceivedFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE7B631B17A069002B6D4A /* ReceivedFiles.swift */; };
+		7DAE7B661B17A069002B6D4A /* ReceivedFiles.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DAE7B641B17A069002B6D4A /* ReceivedFiles.xib */; };
 		7DBFEB381B0BAC9B008F189E /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBFEB361B0BAC9B008F189E /* Start.swift */; };
 		7DBFEB391B0BAC9B008F189E /* Start.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBFEB371B0BAC9B008F189E /* Start.xib */; };
 		7DBFEB3D1B0BADB6008F189E /* Locker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBFEB3B1B0BADB6008F189E /* Locker.xib */; };
@@ -73,16 +81,22 @@
 		60F4B0F11B14F4E500691114 /* ContactMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactMessageViewController.xib; sourceTree = "<group>"; };
 		60F4B0F41B14F94200691114 /* ContactMessagesTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactMessagesTVCell.xib; sourceTree = "<group>"; };
 		60F4B0F61B14F98300691114 /* ContactMessagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactMessagesCell.swift; sourceTree = "<group>"; };
+		7D16DB571B17A2EC00B02AE7 /* IconCellReceivedFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCellReceivedFiles.swift; sourceTree = "<group>"; };
+		7D16DB581B17A2EC00B02AE7 /* IconCellReceivedFiles.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconCellReceivedFiles.xib; sourceTree = "<group>"; };
+		7D16DB5B1B17A4B700B02AE7 /* ReceivedFiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReceivedFiles.png; sourceTree = "<group>"; };
+		7D16DB5F1B17AD3100B02AE7 /* NotesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotesIcon.png; sourceTree = "<group>"; };
+		7D16DB611B17AD8200B02AE7 /* MessagesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessagesIcon.png; sourceTree = "<group>"; };
+		7D16DB631B17AEF400B02AE7 /* CameraRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraRoll.swift; sourceTree = "<group>"; };
+		7D16DB641B17AEF400B02AE7 /* CameraRoll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraRoll.xib; sourceTree = "<group>"; };
+		7D16DB671B17B22F00B02AE7 /* IconCellCameraRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCellCameraRoll.swift; sourceTree = "<group>"; };
+		7D16DB681B17B22F00B02AE7 /* IconCellCameraRoll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconCellCameraRoll.xib; sourceTree = "<group>"; };
+		7D16DB6B1B17B7C200B02AE7 /* GalleryIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GalleryIcon.png; sourceTree = "<group>"; };
 		7D18CEDD1B0E8ED300F3B340 /* IconCellGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCellGallery.swift; sourceTree = "<group>"; };
 		7D18CEDE1B0E8ED300F3B340 /* IconCellGallery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconCellGallery.xib; sourceTree = "<group>"; };
 		7D3D46411B0CF809004FC699 /* Gallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
 		7D3D46421B0CF809004FC699 /* Gallery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Gallery.xib; sourceTree = "<group>"; };
 		7D70B99A1B0E677B00BC1FB3 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		7D70B99B1B0E677B00BC1FB3 /* MainScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainScreen.xib; sourceTree = "<group>"; };
-		7D70B9A21B0E753400BC1FB3 /* rachel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rachel.jpg; sourceTree = "<group>"; };
-		7D70B9A41B0E7C9A00BC1FB3 /* MessagesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessagesIcon.png; sourceTree = "<group>"; };
-		7D70B9A81B0E7FD100BC1FB3 /* GalleryIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GalleryIcon.png; sourceTree = "<group>"; };
-		7D70B9AA1B0E801900BC1FB3 /* NotesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotesIcon.png; sourceTree = "<group>"; };
 		7D70B9AC1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCellMainScreen.swift; sourceTree = "<group>"; };
 		7D70B9AD1B0E8DAC00BC1FB3 /* IconCellMainScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconCellMainScreen.xib; sourceTree = "<group>"; };
 		7DAE7B591B16342B002B6D4A /* Notes2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes2ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +104,8 @@
 		7DAE7B5D1B163B64002B6D4A /* NotesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotesCell.xib; sourceTree = "<group>"; };
 		7DAE7B5F1B163C68002B6D4A /* NotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
 		7DAE7B611B179C69002B6D4A /* Locker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locker.swift; sourceTree = "<group>"; };
+		7DAE7B631B17A069002B6D4A /* ReceivedFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedFiles.swift; sourceTree = "<group>"; };
+		7DAE7B641B17A069002B6D4A /* ReceivedFiles.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceivedFiles.xib; sourceTree = "<group>"; };
 		7DBFEB361B0BAC9B008F189E /* Start.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
 		7DBFEB371B0BAC9B008F189E /* Start.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Start.xib; sourceTree = "<group>"; };
 		7DBFEB3B1B0BADB6008F189E /* Locker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Locker.xib; path = ../Locker.xib; sourceTree = "<group>"; };
@@ -174,18 +190,26 @@
 				60F4B0F81B15058900691114 /* Messages */,
 				7D70B99A1B0E677B00BC1FB3 /* MainScreen.swift */,
 				7D70B99B1B0E677B00BC1FB3 /* MainScreen.xib */,
-				7D3D46411B0CF809004FC699 /* Gallery.swift */,
-				7D3D46421B0CF809004FC699 /* Gallery.xib */,
-				7DAE7B591B16342B002B6D4A /* Notes2ViewController.swift */,
-				7DAE7B5A1B16342B002B6D4A /* Notes2ViewController.xib */,
 				7D70B9AC1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift */,
 				7D70B9AD1B0E8DAC00BC1FB3 /* IconCellMainScreen.xib */,
+				7D3D46411B0CF809004FC699 /* Gallery.swift */,
+				7D3D46421B0CF809004FC699 /* Gallery.xib */,
 				7D18CEDD1B0E8ED300F3B340 /* IconCellGallery.swift */,
 				7D18CEDE1B0E8ED300F3B340 /* IconCellGallery.xib */,
+				7DAE7B591B16342B002B6D4A /* Notes2ViewController.swift */,
+				7DAE7B5A1B16342B002B6D4A /* Notes2ViewController.xib */,
 				7DCF99A21B13BF5300B0A117 /* Photos.swift */,
 				7DCF99A31B13BF5300B0A117 /* Photos.xib */,
 				7DAE7B5D1B163B64002B6D4A /* NotesCell.xib */,
 				7DAE7B5F1B163C68002B6D4A /* NotesTableViewCell.swift */,
+				7DAE7B631B17A069002B6D4A /* ReceivedFiles.swift */,
+				7DAE7B641B17A069002B6D4A /* ReceivedFiles.xib */,
+				7D16DB571B17A2EC00B02AE7 /* IconCellReceivedFiles.swift */,
+				7D16DB581B17A2EC00B02AE7 /* IconCellReceivedFiles.xib */,
+				7D16DB631B17AEF400B02AE7 /* CameraRoll.swift */,
+				7D16DB641B17AEF400B02AE7 /* CameraRoll.xib */,
+				7D16DB671B17B22F00B02AE7 /* IconCellCameraRoll.swift */,
+				7D16DB681B17B22F00B02AE7 /* IconCellCameraRoll.xib */,
 			);
 			path = FindRachel;
 			sourceTree = "<group>";
@@ -193,10 +217,10 @@
 		42ABF9871B0BAA0300AB933D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D70B9AA1B0E801900BC1FB3 /* NotesIcon.png */,
-				7D70B9A81B0E7FD100BC1FB3 /* GalleryIcon.png */,
-				7D70B9A41B0E7C9A00BC1FB3 /* MessagesIcon.png */,
-				7D70B9A21B0E753400BC1FB3 /* rachel.jpg */,
+				7D16DB5B1B17A4B700B02AE7 /* ReceivedFiles.png */,
+				7D16DB5F1B17AD3100B02AE7 /* NotesIcon.png */,
+				7D16DB6B1B17B7C200B02AE7 /* GalleryIcon.png */,
+				7D16DB611B17AD8200B02AE7 /* MessagesIcon.png */,
 				42ABF9881B0BAA0300AB933D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -318,25 +342,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				427324D41B0E65F2008F1155 /* Images.xcassets in Resources */,
+				7D16DB661B17AEF400B02AE7 /* CameraRoll.xib in Resources */,
+				7D16DB601B17AD3100B02AE7 /* NotesIcon.png in Resources */,
 				7DBFEB391B0BAC9B008F189E /* Start.xib in Resources */,
 				7DBFEB3D1B0BADB6008F189E /* Locker.xib in Resources */,
 				7D18CEE01B0E8ED300F3B340 /* IconCellGallery.xib in Resources */,
-				7D70B9A31B0E753400BC1FB3 /* rachel.jpg in Resources */,
 				60F4B0E91B13D32400691114 /* MessagesTVCell.xib in Resources */,
 				7D70B99D1B0E677B00BC1FB3 /* MainScreen.xib in Resources */,
 				7DAE7B5E1B163B64002B6D4A /* NotesCell.xib in Resources */,
 				42ABF98F1B0BAA0300AB933D /* Main.storyboard in Resources */,
-				7D70B9AB1B0E801900BC1FB3 /* NotesIcon.png in Resources */,
 				7DCF99A51B13BF5300B0A117 /* Photos.xib in Resources */,
+				7D16DB621B17AD8200B02AE7 /* MessagesIcon.png in Resources */,
 				7D3D46441B0CF809004FC699 /* Gallery.xib in Resources */,
 				7DBFEB4D1B0BB899008F189E /* Messages.xib in Resources */,
+				7D16DB5C1B17A4B700B02AE7 /* ReceivedFiles.png in Resources */,
+				7D16DB6C1B17B7C200B02AE7 /* GalleryIcon.png in Resources */,
 				60F4B0F31B14F4E500691114 /* ContactMessageViewController.xib in Resources */,
-				7D70B9A51B0E7C9A00BC1FB3 /* MessagesIcon.png in Resources */,
-				7D70B9A91B0E7FD100BC1FB3 /* GalleryIcon.png in Resources */,
 				7DAE7B5C1B16342B002B6D4A /* Notes2ViewController.xib in Resources */,
 				42ABF9941B0BAA0300AB933D /* LaunchScreen.xib in Resources */,
 				60F4B0F51B14F94200691114 /* ContactMessagesTVCell.xib in Resources */,
+				7D16DB5A1B17A2EC00B02AE7 /* IconCellReceivedFiles.xib in Resources */,
 				7D70B9AF1B0E8DAC00BC1FB3 /* IconCellMainScreen.xib in Resources */,
+				7DAE7B661B17A069002B6D4A /* ReceivedFiles.xib in Resources */,
+				7D16DB6A1B17B22F00B02AE7 /* IconCellCameraRoll.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,14 +430,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D16DB691B17B22F00B02AE7 /* IconCellCameraRoll.swift in Sources */,
 				7D70B99C1B0E677B00BC1FB3 /* MainScreen.swift in Sources */,
 				60F4B0EF1B13D5C700691114 /* MessagesCell.swift in Sources */,
 				7DAE7B601B163C68002B6D4A /* NotesTableViewCell.swift in Sources */,
 				42ABF98C1B0BAA0300AB933D /* ViewController.swift in Sources */,
 				7D3D46431B0CF809004FC699 /* Gallery.swift in Sources */,
+				7D16DB591B17A2EC00B02AE7 /* IconCellReceivedFiles.swift in Sources */,
 				7DBFEB4C1B0BB899008F189E /* Messages.swift in Sources */,
 				60F4B0F21B14F4E500691114 /* ContactMessageViewController.swift in Sources */,
 				7DBFEB381B0BAC9B008F189E /* Start.swift in Sources */,
+				7DAE7B651B17A069002B6D4A /* ReceivedFiles.swift in Sources */,
 				7DCF99A41B13BF5300B0A117 /* Photos.swift in Sources */,
 				60F4B0F71B14F98300691114 /* ContactMessagesCell.swift in Sources */,
 				42ABF98A1B0BAA0300AB933D /* AppDelegate.swift in Sources */,
@@ -417,6 +448,7 @@
 				7D70B9AE1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift in Sources */,
 				7D18CEDF1B0E8ED300F3B340 /* IconCellGallery.swift in Sources */,
 				7DAE7B5B1B16342B002B6D4A /* Notes2ViewController.swift in Sources */,
+				7D16DB651B17AEF400B02AE7 /* CameraRoll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

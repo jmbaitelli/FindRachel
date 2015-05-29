@@ -24,21 +24,24 @@ class MainScreen: UIViewController, UICollectionViewDataSource, UICollectionView
     //
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
+  
         
-        if NSUserDefaults.standardUserDefaults().boolForKey("HasLaunchedOnce") {
-            
-            // app already launched
-            
-        } else {
-            
-            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "HasLaunchedOnce")
-            NSUserDefaults.standardUserDefaults().synchronize()
-            
-            var controller: Messages = Messages(nibName:"Messages", bundle:NSBundle.mainBundle())
-            
-            self.presentViewController(controller, animated: true, completion: nil)
-            
-        }
+//func q faz a tela de msg abrir dps do locker somente qnd o jogador abre o jogo pela primeira vez
+        
+//        if NSUserDefaults.standardUserDefaults().boolForKey("HasLaunchedOnce") {
+//            
+//            // app already launched
+//            
+//        } else {
+//            
+//            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "HasLaunchedOnce")
+//            NSUserDefaults.standardUserDefaults().synchronize()
+//            
+//            var controller: Messages = Messages(nibName:"Messages", bundle:NSBundle.mainBundle())
+//            
+//            self.presentViewController(controller, animated: true, completion: nil)
+//            
+//        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -50,7 +53,7 @@ class MainScreen: UIViewController, UICollectionViewDataSource, UICollectionView
 
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        return 6
+        return 3
     }
     
     // essa func adiciona imagens aos icons
@@ -72,6 +75,7 @@ class MainScreen: UIViewController, UICollectionViewDataSource, UICollectionView
             cell.imageCell.image = UIImage(named: "NotesIcon.png")
             
         }
+
         
         
         return cell
@@ -102,7 +106,8 @@ class MainScreen: UIViewController, UICollectionViewDataSource, UICollectionView
             
             self.presentViewController(controller, animated: true, completion: nil)
             
-            }
+        }
+
 
      println(indexPath.row)
         
