@@ -53,10 +53,17 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
 
         var cell:ContactMessagesCell = self.tableView.dequeueReusableCellWithIdentifier("Cell") as! ContactMessagesCell
         
+        //célula de imagem
         //cell.messageImageView.image = UIImage(named:btableData[indexPath.row])
         
-        cell.messageLabel.text = btableData[indexPath.row]
+        //célula de label
+        //cell.messageLabel.text = btableData[indexPath.row]
+
         
+        //cell.messageLabel.frame = CGRectMake(0, 0, 5, 5)
+        //cell.messageLabel.center = CGPointMake(3, 3)
+        //cell.messageLabel.textAlignment = NSTextAlignment.Justified
+        cell.messageLabel.text = btableData[indexPath.row]
         return cell
     }
     
@@ -77,7 +84,7 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
 
     func configureTableView() {
         tableView.rowHeight = UITableViewAutomaticDimension
-        tableView.estimatedRowHeight = 160.0
+        tableView.estimatedRowHeight = 160
     }
     
 }
